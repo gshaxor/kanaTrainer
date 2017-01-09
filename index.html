@@ -22,14 +22,16 @@
         <div class="header clearfix">
             <h3 class="text-muted">Kana Trainer</h3> </div>
         <div class="jumbotron" data-ng-controller="kanaTrainerController as vm">
-            <p class="lead">_</p>
+            <h1>{{vm.kanaItem}}</h1>
+            <p class="lead">Answer: {{vm.kanaAnswer}}</p>
+            <p><a class="btn btn-lg btn-success" href="#" role="button" data-ng-click="vm.another()">Another</a></p>
         </div>
         <div class="row marketing">
             <div class="col-lg-6">
                 <h4>Hiragana</h4>
                 <p>Hiragana (平仮名, ひらがな?) is a Japanese syllabary, one component of the Japanese writing system, along with katakana, kanji, and in some cases rōmaji (Latin script). It is a phonetic lettering system. The word hiragana literally means "ordinary" or "simple" kana ("simple" originally as contrasted with kanji).</p>
                 <h4>Katakana</h4>
-                <p>Katakana (片仮名, カタカナ?) is a Japanese syllabary, one component of the Japanese writing system along with hiragana,[2] kanji, and in some cases the Latin script (known as romaji).</p>
+                <p>Katakana (片仮名, カタカナ?) is a Japanese syllabary, one component of the Japanese writing system along with hiragana, kanji, and in some cases the Latin script (known as romaji).</p>
             </div>
         </div>
         <footer class="footer">
